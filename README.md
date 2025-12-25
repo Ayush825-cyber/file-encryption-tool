@@ -26,7 +26,7 @@ pip install cryptography
 ```
 
 
-## Usage
+## Usage(CLI)
 
 ### Generate key
 python file_encryptor.py --genkey
@@ -36,6 +36,8 @@ python file_encryptor.py --encrypt filename
 
 ### Decrypt file
 python file_encryptor.py --decrypt filename.enc
+
+## Usage(GUI)
 
 ### GUI Version
 python gui_encryptor.py
