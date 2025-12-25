@@ -24,7 +24,7 @@ Install dependency:
 ```bash
 pip install cryptography
 ```
-
+---
 
 ## Usage(CLI)
 
@@ -37,10 +37,14 @@ python file_encryptor.py --encrypt filename
 ### Decrypt file
 python file_encryptor.py --decrypt filename.enc
 
+---
+
 ## Usage(GUI)
 
 ### GUI Version
 python gui_encryptor.py
+
+---
 
 ## Note
 Keep the secret.key file safe. Losing it means losing access to encrypted data.
